@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Atividade Olimpiadas - Manhã - POO II.exe" version="1.0.0.0" publicKeyToken="4927428a462ec857" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Atividade Olimpiadas - Manhã - POO II" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Atividade Olimpiadas - Manhã - POO II.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Atividade Olimpiadas - Manhã - POO II.exe" size="165856">
+      <assemblyIdentity name="Atividade Olimpiadas - Manhã - POO II" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lxjJb2kJhf2WPK8j4GiQu0nKN/CqHXLfHXMqriJlWDU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Atividade Olimpiadas - Manhã - POO II.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SEMNOBS\micro" issuerKeyHash="f9a42a81f262f978b02ad1d66732349100ace4d4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MRalJ4Sevj6F/T03KnAHE+P70nMUj2hCRx/sQ1jsCgo=</DigestValue></Reference></SignedInfo><SignatureValue>CKHlg3z6ukUFdXL+jQIrhyAlhDUUsFxSj5x48CL+GiGK9tnyGiyNhFP5vCu5RkqwQK5cyx3rwOUwb/R5oP0cYZMQrNwraHEOdrZzTJ8VdIb2NYhZcJEzP8G4P0GZAo1dscchCTLPQXBzzLUDEf0XSCcqcRupEWbGHovgiBXeWqQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>td9WOvbJjCcmBG0NKaJ20a5u2uVk6gU4vlld13HdgQEGEHlkGV7u24NIHH+goD2mT/ilVCuYgMzfLs6Iy0V00Aak2ns0NKvyMFdcRAzD/WSKw31bogzEF9y/Z59BGLCpeHDBNEO0fPPCCoe01mgj4pyUEqQPFY04ugq3Xxf7ZmE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0a0aec5843ec1f4742688f1473d2fbe31307702a373dfd853ebe9e8427a51631" Description="" Url=""><as:assemblyIdentity name="Atividade Olimpiadas - Manhã - POO II.exe" version="1.0.0.0" publicKeyToken="4927428a462ec857" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SEMNOBS\micro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YCQmEWso2H9Q480t0/V5fUdaUCcExB4phHfVKevmJDM=</DigestValue></Reference></SignedInfo><SignatureValue>WVVyp0H8DGuSTXeQ3DpS3IQstyF7eD+WuhGDRv2yLjp6Lyd+HjTHQBFbLSiCP5Ofd8RuzmfXoCbtdi6wUltkOZM/Z0G7XVZ/v5/UwCb5GErcKM5joqHjMPR+HclwPOmHc55g7sCuhQFtUTRaLFjo1bMdjfAfj3wc/HBPLW0ks8c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>td9WOvbJjCcmBG0NKaJ20a5u2uVk6gU4vlld13HdgQEGEHlkGV7u24NIHH+goD2mT/ilVCuYgMzfLs6Iy0V00Aak2ns0NKvyMFdcRAzD/WSKw31bogzEF9y/Z59BGLCpeHDBNEO0fPPCCoe01mgj4pyUEqQPFY04ugq3Xxf7ZmE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQLix6+tq+tL5KKu3XiBaThzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMARQBNAE4ATwBCAFMAXABtAGkAYwByAG8wHhcNMjEwOTE3MTM1NTU1WhcNMjIwOTE3MTk1NTU1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMARQBNAE4ATwBCAFMAXABtAGkAYwByAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXfVjr2yYwnJgRtDSmidtGubtrlZOoFOL5ZXddx3YEBBhB5ZBle7tuDSBx/oKA9pk/4pVQrmIDM3y7OiMtFdNAGpNp7NDSr8jBXXEQMw/1kisN9W6IMxBfcv2efQRiwqXhwwTRDtHzzwgqHtNZoI+KclBKkDxWNOLoKt18X+2ZhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACDLilEAEGApneA7/okLndtnMuP+6rIwp58b6sDCJIsI6bksPqwBBF1cSY1RMFlM69kveTqRevydaotLCMdMBTqGRCbJiJmLcZB5JFAMwMZabeEfG0BPPULs4TZKtRy3+LTuCVyEw+sOR0yWS4waTeW6hsth0AcXGsk6fviO2vrs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

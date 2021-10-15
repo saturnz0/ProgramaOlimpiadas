@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82B4E5F7-4AD3-41CF-BEEF-03E755C2FE8B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Atividade_Olimpiadas___Manhã___POO_II</RootNamespace>
+    <AssemblyName>Atividade Olimpiadas - Manhã - POO II</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7FAFABD1334708C07C16E458BAE8CCF6DD6D9BF7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Atividade Olimpiadas - Manhã - POO II_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Atividade Olimpiadas - Manhã - POO II_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalha-ouro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalha-ouro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalha-prata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalha-bronze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalha-total.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagem Bandeiras\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alemanha - Copia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atletas-da-russia - Copia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\australia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belgica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brasil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulgaria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\china.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coreia-do-sul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croacia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinamarca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eslovenia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\espanha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estados-unidos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\georgia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\franca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gra-bretanha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grecia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\holanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hungria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ira.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irlanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\israel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jamaica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\japao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noruega.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nova-zelandia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polonia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quenia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\republica-checa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suecia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taipei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turquia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uganda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uzbequistao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\africa-do-sul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arabia-saudita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\argentina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armenia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\austria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azerbaijao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bahamas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bahrein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belarus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bermudas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botsuana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burkina-faso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cazaquistao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colombia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\costa-do-marfim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eslovaquia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eslovaquia1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estonia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiopia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiji.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filipinas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finlandia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\granada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hong-kong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\india.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indonesia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jordania.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kosovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuwait.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letonia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lituania.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macedonia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\malasia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marrocos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mexico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moldavia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mongolia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\namibia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nigeria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porto-rico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portugal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quirguistao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\republica-dominicana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\romenia %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\san-marino.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tailandia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tunisia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turquemenistao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ucrania.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venezuela.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

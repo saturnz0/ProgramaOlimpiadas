@@ -1,0 +1,14 @@
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\bin\Debug\Atividade Olimpiadas - Manhã - POO II.exe.config
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\bin\Debug\Atividade Olimpiadas - Manhã - POO II.exe
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\bin\Debug\Atividade Olimpiadas - Manhã - POO II.pdb
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.csproj.AssemblyReference.cache
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade_Olimpiadas___Manhã___POO_II.Form1.resources
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade_Olimpiadas___Manhã___POO_II.Properties.Resources.resources
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.csproj.GenerateResource.cache
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.csproj.CoreCompileInputs.cache
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.exe
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.pdb
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\bin\Debug\Atividade Olimpiadas - Manhã - POO II.exe.manifest
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\bin\Debug\Atividade Olimpiadas - Manhã - POO II.application
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.exe.manifest
+D:\Projetos\C#\Atividade Olimpiadas - Manhã - POO II\obj\Debug\Atividade Olimpiadas - Manhã - POO II.application
